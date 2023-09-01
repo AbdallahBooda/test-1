@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-        @extends('layouts.head')
 
-    <body id="page-top">
-        <!-- Navigation-->
-        @extends('layouts.navbar')
-        <!-- Masthead-->
+        @extends('layouts.master')
+        @section('content')
+
+        
         <header class="masthead bg-primary text-white text-center">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
@@ -189,11 +186,3 @@
             </div>
         </section>
         <!-- Footer-->
-        @extends('layouts.footer')
-
-
-        @extends('layouts.script')
-       
-        
-    </body>
-</html>
